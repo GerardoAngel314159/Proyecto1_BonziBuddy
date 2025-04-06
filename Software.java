@@ -1,5 +1,5 @@
 /**
- * CLase abstracta que representa a el software con el cual se podra decorar a la computadora en caso
+ * Clase abstracta que representa a el software con el cual se podra decorar a la computadora en caso
  * de que usuario quiera agregar un software a su computadora
  */
 public abstract class Software extends Computadora{
@@ -14,6 +14,14 @@ public abstract class Software extends Computadora{
      */
     public Software(Computadora computadoraCentro){
         this.computadoraCentro = computadoraCentro;
+    }
+
+    public String getNombre (){
+        return computadoraCentro.getNombre();
+    }
+
+    public int getCosto(){
+        return computadoraCentro.getCosto();
     }
 
 }
