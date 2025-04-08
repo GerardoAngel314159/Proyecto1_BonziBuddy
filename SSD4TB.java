@@ -1,4 +1,4 @@
-public class SSD4B implements MemoriaSSDKingstone{
+public class SSD4TB implements MemoriaSSDKingstone{
 
     private String tipoSSD;
 

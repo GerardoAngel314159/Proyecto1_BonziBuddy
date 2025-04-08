@@ -5,14 +5,17 @@ public class FabricaSSD extends AbstractFactory{
         return getSSD(tipoComponente);
     }
 
-    public SSD getSSD(String tipoSSD){
+    public MemoriaSSDKingston getSSD(String tipoSSD){
         if(tipoSSD==null){
             return null;
         }else if (tipoSSD.equals("SSD500GB")){
-
+            return new SSD500GB();
+        }else if(tipoSSD.equals("SSD1TB")){
+            return new SSD1TB();
+        }else if(tipoSSD.equals("SSD2TB")){
+            return new SSD2TB();
+        }else if(tipoSSD.equals("SSD4TB")){
+            return new SSD4TB();
         }
     }
-    /**
-     * Falta terminar el metodo de arriba pero lo reservo por la duda
-     */
 } 
