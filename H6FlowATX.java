@@ -31,7 +31,7 @@ public class H6FlowATX implements Gabinetes{
     /**
      * Representa la descripcion del componente
      */
-    private String desripcion;
+    private String descripcion;
 
     /**
     * Metodos de la clase 
@@ -62,12 +62,20 @@ public class H6FlowATX implements Gabinetes{
         return RGB;
     }
 
+    /**
+     * Regresa el precio del gabinete
+     * @return double con valor al precio del componente
+     */
     public double getPrecio(){
         return precio;
     }
 
+    /**
+     * Regresa la descripcion del producto
+     * @return String con valor a la descripcion del componente
+     */
     public String getDescripcion(){
-        return desripcion;
+        return descripcion;
     }
 
 
