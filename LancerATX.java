@@ -1,4 +1,4 @@
-public class LancerATX implements GabinetesYeyian{
+public class LancerATX implements Gabinetes{
 
 
     private String tipoGabinete;

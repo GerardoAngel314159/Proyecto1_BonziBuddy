@@ -1,4 +1,4 @@
-public interface GabinetesNZXT{
+public interface Gabinetes{
 
     public void ensamblarGabinete();
 
