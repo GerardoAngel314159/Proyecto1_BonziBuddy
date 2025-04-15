@@ -1,48 +1,53 @@
-public class SeagateHDD2TB{
+public class Adata16GB implements RAM{
 
     /**
-     * Atributos de la clase 
-     */
+    * Atributos de la clase 
+    */
     
     /**
-     * Representa a la marca de la HDD
-     */
+    * Representa a la marca de la SSD
+    */
     private String marca;
 
     /**
-     * Representa el modelo de la HDD
-     */
+    * Representa el modelo de la SSD
+    */
     private String modelo;
 
     /**
-     * Representa la capacidad de la HDD
-     */
+    * Representa la capacidad de la SSD
+    */
     private int capacidad;
 
     /**
-     * Representa el precio del componente
-     */
+    * Representa a el tipo de meoria que es la RAM
+    */
+    private String tipoMemoria;
+    
+    /**
+    * Representa el precio del componente
+    */
     private double precio;
 
     /**
-     * Representa la descripcion del componente
-     */
-    private String descripcion;
+    * Representa la descripcion del componente
+    */
+    private String certificacion;
 
         /**
     * Metodos de la clase 
     */
     
     /**
-     * Regresa la marca de la HDD
-     * @return String con valor de la marca de la HDD
+     * Regresa la marca de la SSD
+     * @return String con valor de la marca de la SSD
      */
     public String getMarca(){
         return marca;
     }
 
     /**
-    * Regresa el modelo de la HDD
+    * Regresa el modelo de la SSD
     * @return String con valor del modelo
     */
     public String getModelo(){
@@ -54,8 +59,12 @@ public class SeagateHDD2TB{
         return capacidad;
     }
 
+    public String getTipoMemoria(){
+        return tipoMemoria;
+    }
+
     /**
-     * Regresa el precio de la HDD
+     * Regresa el precio de la SSD
      * @return double con valor al precio del componente
      */
     public double getPrecio(){
@@ -71,13 +80,13 @@ public class SeagateHDD2TB{
     }
 
     @Override
-    public void ensamblarHDD(){
-        modelo = "2 TB";
+    public void ensamblarSSD(){
+        tipoSSD = "16 GB";
     }
 
     @Override
     public void getTipo(){
-        System.out.pritnln(modelo);
+        System.out.pritnln(tipoSSD);
     }
 
 }
