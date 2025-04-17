@@ -6,6 +6,6 @@ public interface RAM{
     public String getTipoMemoria();
     public double getPrecio();
     public String getDescripcion();
-    public void ensamblarGabinete();
+    public void ensamblarRAM();
     public void getTipo();
 }

@@ -5,17 +5,17 @@ public class Adata8GB implements RAM{
     */
     
     /**
-    * Representa a la marca de la SSD
+    * Representa a la marca de la RAM
     */
     private String marca;
 
     /**
-    * Representa el modelo de la SSD
+    * Representa el modelo de la RAM
     */
     private String modelo;
 
     /**
-    * Representa la capacidad de la SSD
+    * Representa la capacidad de la RAM
     */
     private int capacidad;
 
@@ -30,24 +30,24 @@ public class Adata8GB implements RAM{
     private double precio;
 
     /**
-    * Representa la descripcion del componente
-    */
-    private String certificacion;
+     * Descripcion de la RAM
+     */
+    private String descripcion;
 
         /**
     * Metodos de la clase 
     */
     
     /**
-     * Regresa la marca de la SSD
-     * @return String con valor de la marca de la SSD
+     * Regresa la marca de la RAm
+     * @return String con valor de la marca de la RAM
      */
     public String getMarca(){
         return marca;
     }
 
     /**
-    * Regresa el modelo de la SSD
+    * Regresa el modelo de la RAM
     * @return String con valor del modelo
     */
     public String getModelo(){
@@ -64,7 +64,7 @@ public class Adata8GB implements RAM{
     }
 
     /**
-     * Regresa el precio de la SSD
+     * Regresa el precio de la RAM
      * @return double con valor al precio del componente
      */
     public double getPrecio(){
@@ -80,13 +80,13 @@ public class Adata8GB implements RAM{
     }
 
     @Override
-    public void ensamblarSSD(){
-        tipoSSD = "8 GB";
+    public void ensamblarRAM(){
+        tipoRAM = "8 GB";
     }
 
     @Override
     public void getTipo(){
-        System.out.pritnln(tipoSSD);
+        System.out.pritnln(tipoRAM);
     }
 
 }
