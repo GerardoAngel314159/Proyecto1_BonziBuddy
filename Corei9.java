@@ -71,7 +71,7 @@ public class Corei9 implements Procesador{
         return frecuencia;
     }
     /**
-     * Regresa el precio de la SSD
+     * Regresa el precio de la procesador
      * @return double con valor al precio del componente
      */
     public double getPrecio(){
@@ -87,7 +87,7 @@ public class Corei9 implements Procesador{
     }
 
     @Override
-    public void ensamblarSSD(){
+    public void ensamblarProcesador(){
         modelo = "COre i9-13900K";
     }
 
