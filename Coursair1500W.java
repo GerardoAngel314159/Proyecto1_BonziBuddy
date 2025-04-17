@@ -3,7 +3,7 @@
  * Contiene información basica sobre el producto.
  * el precio y la certificacion de la unidad.
  */
-public class Coursair1500W {
+public class Coursair1500W implements FuenteAlimentacion{
     /**
      * Marca de la fuente de poder.
      */
