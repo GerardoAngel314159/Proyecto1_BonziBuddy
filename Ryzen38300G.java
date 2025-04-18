@@ -1,7 +1,7 @@
 /**
  * Representa un procesador Ryzen38300G.
  */
-public class Ryzen38300G {
+public class Ryzen38300G implements ProcesadorAMD{
     /**
      * Marca del procesador.
      */
@@ -103,6 +103,6 @@ public class Ryzen38300G {
     /**
      * Realiza el ensamblaje del procesador
      */
-    public void ensamblarProcesador() {
+    public void getTipo() {
     }
 }

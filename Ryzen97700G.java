@@ -1,7 +1,7 @@
 /**
  * Representa un procesador Ryzen97700G.
  */
-public class Ryzen97700G {
+public class Ryzen97700G implements ProcesadorAMD{
     /**
      * Marca del procesador.
      */
@@ -103,7 +103,7 @@ public class Ryzen97700G {
     /**
      * Realiza el ensamblaje del procesador
      */
-    public void ensamblarProcesador() {
+    public void getTipo() {
     }
 }
 

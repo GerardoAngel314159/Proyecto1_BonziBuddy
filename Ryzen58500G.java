@@ -1,7 +1,7 @@
 /**
  * Representa un procesador Ryzen58500G.
  */
-public class Ryzen58500G {
+public class Ryzen58500G implements ProcesadorAMD{
     /**
      * Marca del procesador.
      */
@@ -103,6 +103,6 @@ public class Ryzen58500G {
     /**
      * Realiza el ensamblaje del procesador
      */
-    public void ensamblarProcesador() {
+    public void getTipo() {
     }
 }

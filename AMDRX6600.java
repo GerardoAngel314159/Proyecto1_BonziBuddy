@@ -1,7 +1,7 @@
 /**
  * Representa una tarjeta grafica AMDRX6600.
  */
-public class AMDRX6600 {
+public class AMDRX6600 implements TarjetaGraficaAMD{
     /**
      * Marca del fabricante de la tarjeta grafica.
      */
@@ -45,7 +45,7 @@ public class AMDRX6600 {
      *
      * @return la memoria RAM de la Tarjeta Grafica
      */
-    public int getRamTG() {
+    public int getRAMTG() {
         return ramTG;
     }
 
@@ -59,8 +59,8 @@ public class AMDRX6600 {
     }
 
     /**
-     * Metodos para ensamblar la tarjeta gráfica.
+     * Metodos para ensamblar la tarjeta grafica.
      */
-    public void ensamblarTargeta() {
+    public void ensamblarTarjeta() {
     }
 }

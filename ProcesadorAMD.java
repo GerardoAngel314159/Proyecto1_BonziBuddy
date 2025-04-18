@@ -1,0 +1,10 @@
+public interface ProcesadorAMD {
+    public String getMarca();
+    public String getModelo();
+    public int getNucleos();
+    public int getHilos();
+    public double getFrecuencia();
+    public double getPrecio();
+    public String getDescripcion();
+    public void getTipo();
+}
